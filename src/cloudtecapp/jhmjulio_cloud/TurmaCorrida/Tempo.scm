@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["br.com.cta"],"YaVersion":"208","Source":"Form","Properties":{"$Name":"Tempo","$Type":"Form","$Version":"27","AppName":"TurmaCorrida","ShowListsAsJson":"False","Sizing":"Fixed","Title":"Tempo","TitleVisible":"False","Uuid":"0","$Components":[{"$Name":"HorizontalArrangement1","$Type":"HorizontalArrangement","$Version":"3","Width":"-2","Uuid":"1801998512","$Components":[{"$Name":"lblTitulo","$Type":"Label","$Version":"5","FontSize":"20","Width":"-2","Text":"Previs\u00e3o Tempo","Uuid":"1920626061"},{"$Name":"btnBack","$Type":"Button","$Version":"6","FontSize":"20","Height":"55","Width":"55","Image":"btn_back-Copia-Copia.png","Text":"   ","Uuid":"244731835"}]},{"$Name":"WebViewer1","$Type":"WebViewer","$Version":"10","HomeUrl":"https:\/\/www.cptec.inpe.br\/sp\/sao-paulo","IgnoreSslErrors":"True","Uuid":"-1370220391"}]}}
+|#

@@ -1,0 +1,10 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id=",+ok5yTDeEgy1jA{:|-C" x="-337" y="-174">
+    <mutation component_type="Button" is_generic="false" instance_name="lblVoltar" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">lblVoltar</field>
+    <statement name="DO">
+      <block type="controls_closeScreen" id=")j0zC-3i~TI|XsCxYeCb"></block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

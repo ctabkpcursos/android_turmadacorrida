@@ -1,0 +1,137 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="71" x="-476" y="-234">
+    <mutation component_type="Button" is_generic="false" instance_name="btnEntrar" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnEntrar</field>
+    <statement name="DO">
+      <block type="controls_if" id="74" inline="false">
+        <mutation else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id="79">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="component_set_get" id="80">
+                <mutation component_type="PasswordTextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txtSenha"></mutation>
+                <field name="COMPONENT_SELECTOR">txtSenha</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text" id="81">
+                <field name="TEXT">lua2020</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id=")L9uG@k3{U;pg_zPTOo9">
+            <value name="SCREEN">
+              <block type="text" id=",{3^hinQ1,:iL}YdWfFf">
+                <field name="TEXT">Home</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="component_set_get" id="87" inline="false">
+            <mutation component_type="Label" set_or_get="set" property_name="Visible" is_generic="false" instance_name="lblErro"></mutation>
+            <field name="COMPONENT_SELECTOR">lblErro</field>
+            <field name="PROP">Visible</field>
+            <value name="VALUE">
+              <block type="logic_false" id="88">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="89" inline="false">
+                <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="lblErro"></mutation>
+                <field name="COMPONENT_SELECTOR">lblErro</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="text" id="90">
+                    <field name="TEXT">Senha errada. Tente novamente!</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="FJ[y!@|vn^gc/RcwI7z." x="-480" y="-24">
+    <mutation component_type="Form" is_generic="false" instance_name="Screen1" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Screen1</field>
+    <statement name="DO">
+      <block type="component_method" id="zw2IQqyGAMA=4_)#.@eY">
+        <mutation component_type="Notifier" method_name="ShowMessageDialog" is_generic="false" instance_name="msgNotificacao"></mutation>
+        <field name="COMPONENT_SELECTOR">msgNotificacao</field>
+        <value name="ARG0">
+          <block type="text" id="I7c7L-T2kDW8BF(J`D$s">
+            <field name="TEXT">Acesso a este aplicativo, o usuário(a) aceita os termos que podem ser consultados em "Avisos".</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="text" id="AcNvOvK]`a~Ev~e0@*CV">
+            <field name="TEXT">Termos</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <block type="text" id="#q1H8XXGS%Udg9cI$.zj">
+            <field name="TEXT">Aceito</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="sz%7;o^=S7ik:b}-pMxp" x="-479" y="142">
+    <mutation component_type="Button" is_generic="false" instance_name="btnSenha" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnSenha</field>
+    <statement name="DO">
+      <block type="component_method" id="Tlxf8^~M3qlPZa*{^N[*">
+        <mutation component_type="Notifier" method_name="ShowMessageDialog" is_generic="false" instance_name="msgNotificacao"></mutation>
+        <field name="COMPONENT_SELECTOR">msgNotificacao</field>
+        <value name="ARG0">
+          <block type="text" id="X^o94jSeWV)5bludx~AE">
+            <field name="TEXT">O que nosso colega falava para tomar água de côco e olhar no céu + ano corrente!</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="text" id="VcDjf7nvUox8t(MAo-~!">
+            <field name="TEXT">Dica Senha:</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <block type="text" id="X%Y%hKYr!fY{xn9fLrS=">
+            <field name="TEXT">OK</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="n(%o?sDX)?De;Vf8SS@?" x="-480" y="310">
+    <mutation component_type="Button" is_generic="false" instance_name="btnSenha" event_name="LongClick"></mutation>
+    <field name="COMPONENT_SELECTOR">btnSenha</field>
+    <statement name="DO">
+      <block type="component_method" id="5}rx|}{6BO3WNCP47;%:">
+        <mutation component_type="Notifier" method_name="ShowMessageDialog" is_generic="false" instance_name="msgNotificacao"></mutation>
+        <field name="COMPONENT_SELECTOR">msgNotificacao</field>
+        <value name="ARG0">
+          <block type="text" id="2)203rw]kO]2PRaC%K|F">
+            <field name="TEXT">lua2020</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="text" id="Zj:{[)H_m./H.=IK5tie">
+            <field name="TEXT">Senha:</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <block type="text" id="t2w5(/e=eP1EG7fGvRT4">
+            <field name="TEXT">OK</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

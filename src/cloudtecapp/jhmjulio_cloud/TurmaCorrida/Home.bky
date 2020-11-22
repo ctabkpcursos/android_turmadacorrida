@@ -1,0 +1,36 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="R]yo=yA+~%OF)Gd|uc|`" x="-626" y="-323">
+    <mutation component_type="Button" is_generic="false" instance_name="btnClose" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnClose</field>
+    <statement name="DO">
+      <block type="controls_closeApplication" id="7@srXf$?Lp}i?H5LfYeN"></block>
+    </statement>
+  </block>
+  <block type="component_event" id=".cy(|*8))LI$?cWrVWP7" x="-630" y="-233">
+    <mutation component_type="Button" is_generic="false" instance_name="btnMapa" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnMapa</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="^#qD@PR6Y;`%YkZgNLc3">
+        <value name="SCREEN">
+          <block type="text" id="0+b;GgDnD}8qfFg~C=DM">
+            <field name="TEXT">Mapa</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="w5b]QA12H[l;Bfhl@%,," x="-632" y="-133">
+    <mutation component_type="Button" is_generic="false" instance_name="btnTempo" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnTempo</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="T.1X~0J7(^Wi*138!Of2">
+        <value name="SCREEN">
+          <block type="text" id="^9BIgKw-@^qEB6#0@]=,">
+            <field name="TEXT">Tempo</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

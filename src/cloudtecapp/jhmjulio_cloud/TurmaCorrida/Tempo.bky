@@ -1,0 +1,10 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="^=vi*`9GrHW[aKMy_y](" x="-340" y="-213">
+    <mutation component_type="Button" is_generic="false" instance_name="btnBack" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnBack</field>
+    <statement name="DO">
+      <block type="controls_closeScreen" id="zXLtysO!h3Rz=S60,{=+"></block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

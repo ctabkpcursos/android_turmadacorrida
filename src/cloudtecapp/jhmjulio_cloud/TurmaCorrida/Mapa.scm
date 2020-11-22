@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["br.com.cta"],"YaVersion":"208","Source":"Form","Properties":{"$Name":"Mapa","$Type":"Form","$Version":"27","AppName":"TurmaCorrida","ShowListsAsJson":"False","Sizing":"Fixed","Title":"Mapa","TitleVisible":"False","Uuid":"0","$Components":[{"$Name":"HorizontalArrangement1","$Type":"HorizontalArrangement","$Version":"3","Width":"-2","Uuid":"-757519446","$Components":[{"$Name":"lblTitulo","$Type":"Label","$Version":"5","FontBold":"True","FontSize":"20","Width":"-2","Text":"Mapa Ibirapuera","Uuid":"-2129316280"},{"$Name":"lblVoltar","$Type":"Button","$Version":"6","FontSize":"15","Height":"55","Width":"55","Image":"btn_back-Copia-Copia.png","Text":"   ","Uuid":"269556206"}]},{"$Name":"assetMapa","$Type":"Map","$Version":"5","CenterFromString":"-23.5888253,-46.6567884","Height":"-2","Width":"-2","ShowScale":"True","ShowZoom":"True","Uuid":"-1682516527","ZoomLevel":"14"}]}}
+|#
